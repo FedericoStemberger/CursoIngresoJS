@@ -2,8 +2,7 @@ function mostrar()
 {
 	//tomo la edad  
 	var edad;
-	var adolescente
-
+	
 	edad = txtIdEdad.value
 
 	if
