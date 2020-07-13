@@ -10,3 +10,4 @@ function mostrar()
 	alert("El usuario ingresó : "+numero);
 }
 
+// se puede escribir tambien var numero = prompt("Ingrese un número");

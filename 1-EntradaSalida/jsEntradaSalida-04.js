@@ -4,10 +4,11 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	var a;
-	a = prompt("Ingrese un texto");
+	var texto;
 	
-	txtIdNombre.value =a;
-
+	texto = prompt("Ingrese un texto");
+	
+	txtIdNombre.value =texto;
+	//document.getElementById('txtIdNombre').value=texto
 }
 
