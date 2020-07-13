@@ -3,7 +3,7 @@ function mostrar()
 	//Al ingresar una edad solo debemos informar si la persona NO es adolescente.
 	var edad;
 
-	edad = txtIdEdad.value
+	edad = txtIdEdad.value;
 
 	if
 	(edad<=12 || edad>=18)
