@@ -12,7 +12,7 @@ function mostrar()
 	alert("La persona es adolescente");
 	
 	else 
-	alert("La persona es niña");
+	alert("La persona es un niño");
 
 
 
