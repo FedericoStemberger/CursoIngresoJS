@@ -3,10 +3,10 @@ debemos lograr tomar un dato por '=prompt()'
 y luego mostrarlo por 'alert()'.*/
 function mostrar()
 {
-	var a;
+	var numero;
 	
-	a = prompt("Ingrese un número:");
+	numero = prompt("Ingrese un número:");
 	
-	alert("El usuario ingresó : "+a);
+	alert("El usuario ingresó : "+numero);
 }
 
