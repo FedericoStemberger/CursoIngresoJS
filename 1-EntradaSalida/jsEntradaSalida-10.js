@@ -12,7 +12,7 @@ function mostrarAumento()
 
 	importe = parseInt(importe)
 
-	descuento = importe - ((importe*25)/100)
-
+	//descuento = importe - ((importe*25)/100)
+	descuento = importe*0.75
 	txtIdResultado.value = descuento;
 }

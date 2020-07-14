@@ -8,11 +8,11 @@ function mostrarAumento()
 	var sueldo;
 	var sueldo10;
 
-	sueldo = txtIdSueldo.value
+	sueldo = txtIdSueldo.value;
 
-	sueldo = parseInt(sueldo)
+	sueldo = parseInt(sueldo);
 
-	sueldo10 = sueldo + ((sueldo*10)/100)
-	
+	//sueldo10 = sueldo + ((sueldo*10)/100);
+	sueldo10 = sueldo*1.1;
 	txtIdResultado.value = sueldo10;
 }

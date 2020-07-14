@@ -9,48 +9,48 @@ ej.: "la Resta es 750"*/
 
 function sumar()
 {	
-	numeroingresado1=txtIdNumeroUno.value
-	numeroingresado2=txtIdNumeroDos.value
+	numeroingresado1=txtIdNumeroUno.value;
+	numeroingresado2=txtIdNumeroDos.value;
 
-	numeroingresado1 = parseInt(numeroingresado1)
-	numeroingresado2 = parseInt(numeroingresado2)
-	resultado =numeroingresado1+numeroingresado2
+	numeroingresado1 = parseInt(numeroingresado1);
+	numeroingresado2 = parseInt(numeroingresado2);
+	resultado =numeroingresado1+numeroingresado2;
 
 	alert("El resultado de la suma es: "+resultado);	
 }
 
 function restar()
 {
-	numeroingresado1=txtIdNumeroUno.value
-	numeroingresado2=txtIdNumeroDos.value
+	numeroingresado1=txtIdNumeroUno.value;
+	numeroingresado2=txtIdNumeroDos.value;
 
-	numeroingresado1 = parseInt(numeroingresado1)
-	numeroingresado2 = parseInt(numeroingresado2)
-	resultado =numeroingresado1-numeroingresado2
+	numeroingresado1 = parseInt(numeroingresado1);
+	numeroingresado2 = parseInt(numeroingresado2);
+	resultado =numeroingresado1-numeroingresado2;
 
 	alert("El resultado de la resta es: "+resultado);
 }
 
 function multiplicar()
 { 
-	numeroingresado1=txtIdNumeroUno.value
-	numeroingresado2=txtIdNumeroDos.value
+	numeroingresado1=txtIdNumeroUno.value;
+	numeroingresado2=txtIdNumeroDos.value;
 
-	numeroingresado1 = parseInt(numeroingresado1)
-	numeroingresado2 = parseInt(numeroingresado2)
-	resultado =numeroingresado1*numeroingresado2
+	numeroingresado1 = parseInt(numeroingresado1);
+	numeroingresado2 = parseInt(numeroingresado2);
+	resultado =numeroingresado1*numeroingresado2;
 
 	alert("El resultado de la multiplicación es: "+resultado);
 }
 
 function dividir()
 {
-	numeroingresado1=txtIdNumeroUno.value
-	numeroingresado2=txtIdNumeroDos.value
+	numeroingresado1=txtIdNumeroUno.value;
+	numeroingresado2=txtIdNumeroDos.value;
 
-	numeroingresado1 = parseInt(numeroingresado1)
-	numeroingresado2 = parseInt(numeroingresado2)
-	resultado =numeroingresado1/numeroingresado2
+	numeroingresado1 = parseInt(numeroingresado1);
+	numeroingresado2 = parseInt(numeroingresado2);
+	resultado =numeroingresado1/numeroingresado2;
 
 	alert("El resultado de la división es: "+resultado);
 }

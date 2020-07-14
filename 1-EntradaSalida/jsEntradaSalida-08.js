@@ -10,13 +10,13 @@ function SacarResto()
     var numeroingresado2;
     var resultado;
 
-    numeroingresado1 = txtIdNumeroDividendo.value
-    numeroingresado2 = txtIdNumeroDivisor.value
+    numeroingresado1 = txtIdNumeroDividendo.value;
+    numeroingresado2 = txtIdNumeroDivisor.value;
 
-    numeroingresado1 = parseInt(numeroingresado1)
-    numeroingresado2 = parseInt(numeroingresado2)
+    numeroingresado1 = parseInt(numeroingresado1);
+    numeroingresado2 = parseInt(numeroingresado2);
 
-    resultado = numeroingresado1%numeroingresado2
+    resultado = numeroingresado1%numeroingresado2;
     
     alert("El resto es: "+resultado);
 

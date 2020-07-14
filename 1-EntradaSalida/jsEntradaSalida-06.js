@@ -14,7 +14,7 @@ function sumar()
 	numeroingresado1 = parseInt(numeroingresado1);
 	numeroingresado2 = parseInt(numeroingresado2);
 	
-	resultado =numeroingresado1+numeroingresado2
+	resultado =numeroingresado1+numeroingresado2;
 	
 	alert("La suma es: "+resultado);
 }
