@@ -10,16 +10,16 @@ var resultado;
 function FahrenheitCentigrados () 
 {
     fahrenheit = txtIdTemperatura.value;
-    fahrenheit = parseInt(fahrenheit);
+    fahrenheit = parseFloat(fahrenheit);
     
-    resultado = (fahrenheit -32)*5/9
+    resultado = (fahrenheit -32)*5/9;
     alert(fahrenheit+" Fahrenheit son "+resultado+" centígrados");
 }
 
 function CentigradosFahrenheit () 
 {
 	centígrados = txtIdTemperatura.value;
-    centígrados = parseInt(centígrados);
+    centígrados = parseFloat(centígrados);
     
     resultado = (centígrados *9/5)+32;
     alert(centígrados+" centígrados son "+resultado+" Fahrenheit");

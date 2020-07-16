@@ -15,8 +15,8 @@ function Rectangulo ()
     largo = txtIdLargo.value;
     ancho = txtIdAncho.value;
 
-    largo = parseInt(largo);
-    ancho = parseInt(ancho);
+    largo = parseFloat(largo);
+    ancho = parseFloat(ancho);
 
     resultado = ((largo + ancho) *2) *3;
     alert("Se necesitarán "+resultado+" metros de alambre.");
@@ -25,7 +25,7 @@ function Circulo()
 {
     radio = txtIdRadio.value;
         
-    radio = parseInt(radio);
+    radio = parseFloat(radio);
 
     resultado = (2 * Math.PI * radio)*3;
 
@@ -36,8 +36,8 @@ function Materiales ()
 	largo = txtIdLargo.value;
     ancho = txtIdAncho.value;
 
-    largo = parseInt(largo);
-    ancho = parseInt(ancho);
+    largo = parseFloat(largo);
+    ancho = parseFloat(ancho);
 
     resultado = largo * ancho;
     cemento = resultado*2;

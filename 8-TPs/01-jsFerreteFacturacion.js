@@ -14,9 +14,9 @@ function Sumar ()
     precio2=txtIdPrecioDos.value;
     precio3=txtIdPrecioTres.value;
 
-    precio1=parseInt(precio1);
-    precio2=parseInt(precio2);
-    precio3=parseInt(precio3);
+    precio1=parseFloat(precio1);
+    precio2=parseFloat(precio2);
+    precio3=parseFloat(precio3);
 
     resultado=precio1+precio2+precio3;
     alert("La suma de los precios da: "+resultado);
@@ -28,9 +28,9 @@ function Promedio ()
     precio2=txtIdPrecioDos.value;
     precio3=txtIdPrecioTres.value;
 
-    precio1=parseInt(precio1);
-    precio2=parseInt(precio2);
-    precio3=parseInt(precio3);
+    precio1=parseFloat(precio1);
+    precio2=parseFloat(precio2);
+    precio3=parseFloat(precio3);
 
     resultado=(precio1+precio2+precio3)/3;
     alert("El promedio de los precios da: "+resultado);
@@ -41,9 +41,9 @@ function PrecioFinal ()
     precio2=txtIdPrecioDos.value;
     precio3=txtIdPrecioTres.value;
 
-    precio1=parseInt(precio1);
-    precio2=parseInt(precio2);
-    precio3=parseInt(precio3);
+    precio1=parseFloat(precio1);
+    precio2=parseFloat(precio2);
+    precio3=parseFloat(precio3);
 
     resultado=(precio1+precio2+precio3)*1.21;
     alert("El precio final de los precios da: "+resultado);
