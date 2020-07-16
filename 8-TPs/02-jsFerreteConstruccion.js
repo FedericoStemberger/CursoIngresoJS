@@ -19,6 +19,7 @@ function Rectangulo ()
     ancho = parseFloat(ancho);
 
     resultado = ((largo + ancho) *2) *3;
+    
     alert("Se necesitarán "+resultado+" metros de alambre.");
 }
 function Circulo() 

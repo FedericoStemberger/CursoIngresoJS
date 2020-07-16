@@ -10,13 +10,19 @@ function mostrar()
 	numeroRandom = Math.floor(Math.random() * 10) +1;
 
 	if(numeroRandom>= 10)
-	alert("EXCELENTE");
+	{
+		alert("EXCELENTE");
+	}
 
 	else if(numeroRandom>4 && numeroRandom<9)
-	alert("APROBÓ");
+	{
+		alert("APROBÓ");
+	}
 
 	else
-	alert("Vamos, la proxima se puede");
+	{
+		alert("Vamos, la proxima se puede");
+	}
 		
 	
 }//FIN DE LA FUNCIÓN

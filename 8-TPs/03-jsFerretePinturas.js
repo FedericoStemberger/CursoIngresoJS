@@ -13,6 +13,7 @@ function FahrenheitCentigrados ()
     fahrenheit = parseFloat(fahrenheit);
     
     resultado = (fahrenheit -32)*5/9;
+
     alert(fahrenheit+" Fahrenheit son "+resultado+" centígrados");
 }
 
@@ -22,5 +23,6 @@ function CentigradosFahrenheit ()
     centígrados = parseFloat(centígrados);
     
     resultado = (centígrados *9/5)+32;
+    
     alert(centígrados+" centígrados son "+resultado+" Fahrenheit");
 }

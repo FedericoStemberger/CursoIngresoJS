@@ -6,11 +6,12 @@ pero si no es asi, y es soltero y no es menor, mostrar el siguiente mensaje: 'Es
 	var estado;
 
 	edad = txtIdEdad.value;
-	estado = estadoCivil.value
+	estado = estadoCivil.value;
 
 	if (edad>=18 && estado == "Soltero")
-	alert("Es soltero y no es menor.");
-	
+	{
+		alert("Es soltero y no es menor.");
+	}
 
 
 }//FIN DE LA FUNCIÓN
