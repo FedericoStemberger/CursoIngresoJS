@@ -6,7 +6,7 @@ si aún no llego el Invierno: "Falta para el invierno."
 si ya paso el Invierno: "Ya pasamos el frio, ahora calor!!!."
 ACLARAcIÓN: tomamos a Julio y Agosto como los meses de Invierno.*/
 
-	var mesDelAño
+	var mesDelAño;
 	
 	mesDelAño =txtIdMes.value;
 	
