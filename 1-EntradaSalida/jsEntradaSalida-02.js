@@ -5,7 +5,7 @@ function mostrar()
 {
 	var numero;
 	
-	numero = prompt("Ingrese un número:");
+	numero = prompt("Ingresa un numero pajero:");
 	
 	alert("El usuario ingresó : "+numero);
 }

@@ -1,79 +1,28 @@
-function mostrar()
-{
-	/*al seleccionar un mes informar.
+/*STEMBERGER FEDERICO 1°D
+Ejercicio 4:
+al seleccionar un mes informar.
 si tiene 28 días.
 si tiene 30 días.
 si tiene 31 días.*/
-
+function mostrar()
+{
 	var mesDelAño;
 	
 	mesDelAño =txtIdMes.value;
 
 	switch(mesDelAño)
 	{
-		case "Enero":
-		{
-			alert("Este mes tiene 31 días.");
-			break;
-		}
 		case "Febrero":
-		{
 			alert("Este mes tiene 28 días.");
 			break;
-		}
-		case "Marzo":
-		{
-			alert("Este mes tiene 31 días.");
-			break;
-		}
 		case "Abril":
-		{
-			alert("Este mes tiene 30 días.");
-			break;
-		}
-		case "Mayo":
-		{
-			alert("Este mes tiene 31 días.");
-			break;
-		}
 		case "Junio":
-		{
-			alert("Este mes tiene 30 días.");
-			break;
-		}
-		case "Julio":
-		{
-			alert("Este mes tiene 31 días.");
-			break;
-		}
-		case "Agosto":
-		{
-			alert("Este mes tiene 31 días.");
-			break;
-		}
 		case "Septiembre":
-		{
-			alert("Este mes tiene 30 días.");
-			break;
-		}
-		case "Octubre":
-		{
-			alert("Este mes tiene 31 días.");
-			break;
-		}
 		case "Noviembre":
-		{
 			alert("Este mes tiene 30 días.");
 			break;
-		}
-		case "Diciembre":
-		{
+		default:
 			alert("Este mes tiene 31 días.");
-			break;
-		}
 	}
 	
-
-
-
 }//FIN DE LA FUNCIÓN

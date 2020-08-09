@@ -7,7 +7,7 @@ function mostrar()
 	"Vamos, la proxima se puede" para notas menores a 4*/
 
 	var numeroRandom;
-	numeroRandom = Math.floor(Math.random() * 10) +1;
+	numeroRandom = Math.floor((Math.random() * 10) +1);
 
 	/*PRIMERA FORMA
 	if(numeroRandom>8)
@@ -32,7 +32,7 @@ function mostrar()
 	}
 	else
 	{
-		if(numeroRandom>4)
+		if(numeroRandom>3)
 		{
 			alert("APROBÓ");
 		}

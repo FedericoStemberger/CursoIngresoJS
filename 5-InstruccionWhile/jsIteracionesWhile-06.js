@@ -6,6 +6,13 @@ function mostrar()
 
 	contador=0;
 	acumulador=0;
+	while(contador<5)
+	{
+		numeroIngresado=prompt("Ingrese un número:");
+		numeroIngresado=parseInt(numeroIngresado);
+		contador=contador+1;
+		acumulador=acumulador+numeroIngresado;
+	}
 	
 	
 	txtIdSuma.value=acumulador;
